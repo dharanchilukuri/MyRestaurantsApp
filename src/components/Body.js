@@ -38,10 +38,15 @@ const Body = () => {
                 <input
                     type="text"
                     data-testid="searchInput"
-                    className="border border-solid border-black p-2 w-80" // Adjust width for better layout
+                    className="
+                    border border-grey-700 rounded-md p-2 w-80
+                    bg-gray-100 focus:bg-white
+                    shadow-md focus:shadow-lg
+                    focus:border-none focus:outline-none transition-all
+                  "
                     value={searchText}
                     onChange={(e) => setSearchText(e.target.value)}
-                    placeholder="Search restaurnt..."
+                    placeholder="Search restaurants......"
                 />
             </div>
             <div className="flex flex-wrap justify-center">
