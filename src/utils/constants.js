@@ -1,4 +1,4 @@
-export const API_URL = "https://your-vercel-project.vercel.app/api/swiggy";
+export const API_URL = "https://dharanchilukuri-projects.vercel.app/api/swiggy";
 
 export const CDN_URL ="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
 
