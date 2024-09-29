@@ -2,6 +2,7 @@
     "name": "my-restaurants",
     "version": "1.0.0",
     "description": "my restaurants app from swiggy api",
+    "main": "App.js",
     "scripts": {
         "start": "parcel index.html",
         "build": "parcel build index.html --public-url ./",
@@ -34,7 +35,7 @@
         "lightningcss": "^1.27.0",
         "lucide-react": "^0.446.0",
         "react": "^18.3.1",
-        "react-dom": "^18.2.0",
+        "react-dom": "^18.3.1",
         "react-hook-form": "^7.53.0",
         "react-router-dom": "^6.26.2",
         "tailwind-merge": "^2.5.2",
