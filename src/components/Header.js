@@ -1,6 +1,6 @@
 import { LOGO_URL } from "../utils/constants";
 
-Header = () =>{
+const Header = () =>{
     return (
         <div className="flex justify-between items-center ">
             <img className="w-16 h-16" src={LOGO_URL} />
